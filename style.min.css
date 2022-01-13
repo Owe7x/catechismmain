@@ -3528,7 +3528,7 @@ body {
 .menu__list-langText:before {
     content: '';
     position: absolute;
-    background-image: url("../images/icons/globus.svg");
+    background-image: url("./images/icons/globus.svg");
     width: 18px;
     height: 18px;
     top: 50%;
@@ -3586,7 +3586,7 @@ body {
 }
 
 .plug {
-    background-image: url("../images/plug-bg.jpg");
+    background-image: url("./images/plug-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -3713,7 +3713,7 @@ body {
 
 .open-top {
     height: 433px;
-    background-image: url("../images/open-bg.jpg");
+    background-image: url("./images/open-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     width: 100%;
@@ -3828,7 +3828,7 @@ body {
 
 .steps {
     padding: 67px 0 60px;
-    background-image: url("../images/steps-bg.jpg");
+    background-image: url("./images/steps-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover
 }
@@ -3924,7 +3924,7 @@ body {
 
 .thanks-top {
     height: 590px;
-    background-image: url("../images/thanks-bg.jpg");
+    background-image: url("./images/thanks-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
@@ -3932,7 +3932,7 @@ body {
 }
 
 .thanks-top__box {
-    background-image: url("../images/circle.png");
+    background-image: url("./images/circle.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 395px;
@@ -4075,7 +4075,7 @@ body {
 
 .top-donations {
     height: 213px;
-    background-image: url("../images/top-donations__bg.jpg");
+    background-image: url("./images/top-donations__bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%
@@ -4272,7 +4272,7 @@ body {
 .entrance__item:nth-child(2) .entrance__item-eye {
     content: '';
     position: absolute;
-    background-image: url("../images/icons/eye.svg");
+    background-image: url("./images/icons/eye.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 21px;
@@ -4284,7 +4284,7 @@ body {
 }
 
 .entrance__item:nth-child(2) .entrance__item-eye--active {
-    background-image: url("../images/icons/eye-not.svg");
+    background-image: url("./images/icons/eye-not.svg");
     height: 21px
 }
 
@@ -4519,13 +4519,13 @@ body {
 
 .payment__card-item {
     position: relative;
-    background-image: url("../images/cards.png");
+    background-image: url("./images/cards.png");
     background-repeat: no-repeat;
     background-position: 99% center
 }
 
 .payment__card-item .jq-selectbox__select-text {
-    background-image: url("../images/cards.png");
+    background-image: url("./images/cards.png");
     background-repeat: no-repeat;
     background-position: 99% center
 }
@@ -4635,7 +4635,7 @@ body {
     display: none;
     content: '';
     position: absolute;
-    background-image: url("../images/check.png");
+    background-image: url("./images/check.png");
     background-size: contain;
     width: 16px;
     height: 16px;
@@ -4920,7 +4920,7 @@ body {
 .new-password__item:nth-child(1) .new-password__item-eye,
 .new-password__item:nth-child(3) .new-password__item-eye {
     position: absolute;
-    background-image: url("../images/icons/eye.svg");
+    background-image: url("./images/icons/eye.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 21px;
@@ -4934,7 +4934,7 @@ body {
 .new-password__item:nth-child(2) .new-password__item-eye--active,
 .new-password__item:nth-child(3) .new-password__item-eye--active {
     height: 21px;
-    background-image: url("../images/icons/eye-not.svg")
+    background-image: url("./images/icons/eye-not.svg")
 }
 
 .new-password__item:nth-child(2) .new-password__item-input,
@@ -5057,7 +5057,7 @@ body {
 .cabinet-top {
     height: 433px;
     width: 100%;
-    background-image: url("../images/cabinet-top__bg.jpg");
+    background-image: url("./images/cabinet-top__bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center
@@ -5117,7 +5117,7 @@ body {
 
 .cabinet-data__box-imgBox {
     margin-right: 20px;
-    background-image: url("../images/frame.png");
+    background-image: url("./images/frame.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 181px;
@@ -5209,7 +5209,7 @@ body {
 .cabinet-course__item--active:before {
     content: '';
     position: absolute;
-    background-image: url("../images/icons/arrow-right2.svg");
+    background-image: url("./images/icons/arrow-right2.svg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 9px;
@@ -5599,7 +5599,7 @@ body {
 @media (max-width: 670px) {
     .top-donations {
         height: 300px;
-        background-image: url("../images/top-donations__bg-mobile.jpg")
+        background-image: url("./images/top-donations__bg-mobile.jpg")
     }
     .top-donations__title {
         margin: 110px auto 0
@@ -5621,7 +5621,7 @@ body {
         max-width: 480px
     }
     .registration__inner {
-        background-image: url("../images/circle2.png");
+        background-image: url("./images/circle2.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center;
@@ -5688,7 +5688,7 @@ body {
         margin-bottom: 70px
     }
     .steps {
-        background-image: url("../images/steps-bg__mobile.jpg")
+        background-image: url("./images/steps-bg__mobile.jpg")
     }
     .steps__title span {
         display: block
@@ -6262,6 +6262,6 @@ body {
 }
 
 .has-children .icon.icon_opened {
-    background-image: url(../images/i-minus.svg);
+    background-image: url(./images/i-minus.svg);
     background-position-y: 7px;
 }
