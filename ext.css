@@ -1,0 +1,53 @@
+* {
+	outline: none;
+}
+
+.error input {
+	background: #fcc;
+	border: 1px solid #f00;
+}
+
+.error-text {
+	font-size: 14px;
+	color: #f00;
+	display: none;
+
+	font-size: 13px;
+    line-height: 1.2;
+    margin-top: 7px;
+}
+
+.error .error-text {
+	display: block;
+}
+
+.video__item-box {
+	overflow: hidden;
+}
+
+.article-img {
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+
+.cabinet-course__item-content {
+	width: 100%;
+}
+
+.footer-bottom__text {
+	position: relative;
+}
+
+.footer-p-2 {
+	text-align: right;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+@media (max-width: 1100px) {
+	.footer-p-2 {
+		position: relative;
+		margin-bottom: 4vh;
+	}
+}
