@@ -3375,9 +3375,7 @@ body {
 
 .faq__item-text {
     max-height: 0;
-    -webkit-transition: all .35s;
-    -o-transition: all .35s;
-    transition: all .35s
+    opacity: 0;
 }
 
 .faq__item--active {
@@ -3386,7 +3384,9 @@ body {
 
 .faq__item--active .faq__item-text {
     padding: 0 30px 20px 30px;
-    max-height: 100vh
+    max-height: 100vh;
+    opacity: 1;
+    transition: opacity 0.5s linear;
 }
 
 .faq__item--active .faq__item-title {
@@ -3716,6 +3716,7 @@ body {
     background-image: url("./images/open-bg.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     width: 100%;
     padding-top: 180px
 }
@@ -3923,7 +3924,7 @@ body {
 }
 
 .thanks-top {
-    height: 590px;
+    height: 355px;
     background-image: url("./images/thanks-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -6174,7 +6175,7 @@ body {
 .menu__list-langLink {
     padding: 10px 15px;
     color: #000;
-    font-family: 'Pragmatica';
+    font-family: 'pragmatica-400', sans-serif;
     font-weight: bold;
     display: block;
     text-decoration: none;
